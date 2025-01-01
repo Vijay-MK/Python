@@ -1,0 +1,5 @@
+u = float(input("enter the initial velocity:"))
+v = float(input("Enter the final velocity:"))
+a = float(input("Enter the acceleration:"))
+d = ( v**2 - u**2 ) / (2*a)
+print("The displacement is:", d)
